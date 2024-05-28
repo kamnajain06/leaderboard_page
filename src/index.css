@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    background: hsl(0, 24%, 94%);
+    padding: 0.1em;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.card:hover{
+  background-color: rgb(192, 190, 190);
+}
+
+/* Add this CSS to your stylesheet */
+
+/* Add this CSS to your stylesheet */
+.custom-dropdown .p-dropdown-panel {
+    background-color: white; /* Background color for the dropdown panel */
+    border: 1px solid #e2e8f0; /* Light gray border */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.custom-dropdown .p-dropdown-item {
+    padding: 0.5rem 1rem; /* Padding for each dropdown item */
+    color: #4a5568; /* Text color for the dropdown items */
+}
+
+.custom-dropdown .p-dropdown-item:hover {
+    background-color: #edf2f7; /* Light background color on hover */
+    color: #2d3748; /* Darker text color on hover */
+}
+
+.custom-dropdown .p-dropdown-item.p-highlight {
+    background-color: #bee3f8; /* Background color for highlighted item */
+    color: #2b6cb0; /* Text color for highlighted item */
+}
+
