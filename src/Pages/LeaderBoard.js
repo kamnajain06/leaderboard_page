@@ -59,8 +59,8 @@ const LeaderBoard = () => {
 
     const { getTableBodyProps, getTableProps, headerGroups, rows, prepareRow } = useTable({ columns, data });
     return (
-        <div className='flex w-11/12 justify-center mx-auto h-screen border border-black'>
-            <div className='flex flex-col w-full border border-black'>
+        <div className='flex w-11/12 justify-center mx-auto h-screen '>
+            <div className='flex flex-col w-full '>
                 <div className='text-4xl font-bold text-center'>LeaderBoard</div>
                 <div>
                     <div className='flex w-full justify-between md:mt-[50px] md:px-[10px]'>
